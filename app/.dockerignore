@@ -1,0 +1,6 @@
+# 빌드에 필요 없는 것들 — 전송에서 빠집니다
+Dockerfile.bad
+__pycache__/
+*.pyc
+.git/
+*.log
