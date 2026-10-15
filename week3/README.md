@@ -112,3 +112,8 @@ python3 sql_analysis.py     # 이후 roundtrip.py · funnel.py 등
 - 보정한 결측 30건을 구분할 표시 열이 없음 → `price_imputed` 플래그 추가 예정
 - `validate_test.py`의 미래 날짜 검사는 실행일(`Timestamp.today()`) 기준이라 날짜에 따라 결과가 바뀔 수 있음
 - 수업 단계별 코드를 이어 붙인 실습 파일이라 한 파일에 출력이 많음 → 파이프라인용(clean_orders)과 실습용 파일을 구분해 둠
+
+## 9. 미니 과제 (3-5)
+
+- 폴더: [mini/](mini/) — 대표 산출물과 섞이지 않도록 분리
+- 값 범위 점검 추가 · 결측 처리 방식 비교(중앙값 보정 vs 행 버리기, 매출 합계 2.73% 차이) · events 100만 행 품질 측정을 DuckDB SQL로 (Pandas 대비 약 2배 빠르고 메모리 89 MB → 176 bytes)

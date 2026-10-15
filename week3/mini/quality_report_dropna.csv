@@ -1,0 +1,4 @@
+dataset,rows,dup_order_id,null_price,null_rate_pct,category_values,price_le_0,qty_out_of_range
+before,1015,15,30,2.96,5,0,0
+after_median,1000,0,0,0.0,4,0,0
+after_dropna,970,0,0,0.0,4,0,0
