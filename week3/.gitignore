@@ -3,3 +3,4 @@ __pycache__/
 events.csv
 events_parted/
 *.parquet
+!orders_clean.parquet
